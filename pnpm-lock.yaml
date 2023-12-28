@@ -5,9 +5,12 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@internationalized/date':
+    specifier: ^3.5.1
+    version: 3.5.1
   bits-ui:
-    specifier: ^0.11.6
-    version: 0.11.6(svelte@4.2.2)
+    specifier: ^0.11.8
+    version: 0.11.8(svelte@4.2.2)
   clsx:
     specifier: ^2.0.0
     version: 2.0.0
@@ -15,14 +18,14 @@ dependencies:
     specifier: ^0.0.12
     version: 0.0.12(svelte@4.2.2)
   formsnap:
-    specifier: ^0.4.1
-    version: 0.4.1(svelte@4.2.2)(sveltekit-superforms@1.11.0)(zod@3.22.4)
+    specifier: ^0.4.2
+    version: 0.4.2(svelte@4.2.2)(sveltekit-superforms@1.13.1)(zod@3.22.4)
   lucide-svelte:
-    specifier: ^0.294.0
-    version: 0.294.0(svelte@4.2.2)
+    specifier: ^0.303.0
+    version: 0.303.0(svelte@4.2.2)
   sveltekit-superforms:
-    specifier: ^1.11.0
-    version: 1.11.0(@sveltejs/kit@1.27.2)(svelte@4.2.2)(zod@3.22.4)
+    specifier: ^1.13.1
+    version: 1.13.1(@sveltejs/kit@1.27.2)(svelte@4.2.2)(zod@3.22.4)
   tailwind-merge:
     specifier: ^2.1.0
     version: 2.1.0
@@ -377,8 +380,8 @@ packages:
     resolution: {integrity: sha512-dvuCeX5fC9dXgJn9t+X5atfmgQAzUOWqS1254Gh0m6i8wKd10ebXkfNKiRK+1GWi/yTvvLDHpoxLr0xxxeslWw==}
     dev: true
 
-  /@internationalized/date@3.5.0:
-    resolution: {integrity: sha512-nw0Q+oRkizBWMioseI8+2TeUPEyopJVz5YxoYVzR0W1v+2YytiYah7s/ot35F149q/xAg4F1gT/6eTd+tsUpFQ==}
+  /@internationalized/date@3.5.1:
+    resolution: {integrity: sha512-LUQIfwU9e+Fmutc/DpRTGXSdgYZLBegi4wygCWDSVmUdLTaMHsQyASDiJtREwanwKuQLq0hY76fCJ9J/9I2xOQ==}
     dependencies:
       '@swc/helpers': 0.5.3
     dev: false
@@ -428,14 +431,14 @@ packages:
       svelte: 4.2.2
     dev: false
 
-  /@melt-ui/svelte@0.64.5(svelte@4.2.2):
-    resolution: {integrity: sha512-nPQA2guLuLitpZ6A968eWyGMC2riTKLq4R26hPRLdzP/JHCpd9yvddgMwil8JKbUKjT2dC3i358vUqeUOGxknA==}
+  /@melt-ui/svelte@0.65.2(svelte@4.2.2):
+    resolution: {integrity: sha512-BpsSl9Bjp1++8U3+LaDOFUoX/PFQ9N7QWFhlFdUEZduhrbVyU70v9A459SKrQ+esFSjvh1AvqJYkMAUJXJlAmQ==}
     peerDependencies:
       svelte: '>=3 <5'
     dependencies:
       '@floating-ui/core': 1.4.1
       '@floating-ui/dom': 1.5.1
-      '@internationalized/date': 3.5.0
+      '@internationalized/date': 3.5.1
       dequal: 2.0.3
       focus-trap: 7.5.2
       nanoid: 4.0.2
@@ -860,13 +863,13 @@ packages:
     resolution: {integrity: sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==}
     engines: {node: '>=8'}
 
-  /bits-ui@0.11.6(svelte@4.2.2):
-    resolution: {integrity: sha512-m/8A1InhFoEgRcK6wF4W2pCNq0gV0U4aNVHIcr8ZDqzHT2r5sK5v7ZBoLfpte1rNO35wZ+R0PxxWx058IXGjBQ==}
+  /bits-ui@0.11.8(svelte@4.2.2):
+    resolution: {integrity: sha512-T3YaT88OJguBoUU/MSncf41fiIc+5/ka8Au2LUDo0nSECex+LFY40+hKWLJc5tRT56avkyHsI7x9daA2r9eS/g==}
     peerDependencies:
       svelte: ^4.0.0
     dependencies:
-      '@internationalized/date': 3.5.0
-      '@melt-ui/svelte': 0.64.5(svelte@4.2.2)
+      '@internationalized/date': 3.5.1
+      '@melt-ui/svelte': 0.65.2(svelte@4.2.2)
       nanoid: 5.0.4
       svelte: 4.2.2
     dev: false
@@ -1360,15 +1363,15 @@ packages:
       tabbable: 6.2.0
     dev: false
 
-  /formsnap@0.4.1(svelte@4.2.2)(sveltekit-superforms@1.11.0)(zod@3.22.4):
-    resolution: {integrity: sha512-hUOaDKb+KoBi4PamJRnxRqIQW3msp2BKPqohoqjHUuBb+vgBrhoaz0WYEFkXG4bzVQS3JngG55m/zX5ciZTyeA==}
+  /formsnap@0.4.2(svelte@4.2.2)(sveltekit-superforms@1.13.1)(zod@3.22.4):
+    resolution: {integrity: sha512-iUhGDUcjUW9tCOYLZ1rbNR1wkjtEbrXDxhUnl7+zPKjP5K8ikDfhZWH1cquKdUcHJoSE7M/Rruvg0fNQMjSNtA==}
     peerDependencies:
       svelte: ^4.0.0
       sveltekit-superforms: ^1.7.1
       zod: ^3.22.2
     dependencies:
       svelte: 4.2.2
-      sveltekit-superforms: 1.11.0(@sveltejs/kit@1.27.2)(svelte@4.2.2)(zod@3.22.4)
+      sveltekit-superforms: 1.13.1(@sveltejs/kit@1.27.2)(svelte@4.2.2)(zod@3.22.4)
       zod: 3.22.4
     dev: false
 
@@ -1636,8 +1639,8 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /lucide-svelte@0.294.0(svelte@4.2.2):
-    resolution: {integrity: sha512-jqQDL9bfZm3DzEhulRdPWWw88qQpS/w/fDAdgTsYXjij5I81HYFFxbDHpnSHes2oH9Eri5M3QQDgqV9xtqkyig==}
+  /lucide-svelte@0.303.0(svelte@4.2.2):
+    resolution: {integrity: sha512-Lt5kH3pGSSQdFDgL+y09xkp8FCGm7pQBdxmRxdpA0/im5AHl6WGDECWdiB4dnBCp8njOgWd0TaSqgkL0dF0efg==}
     peerDependencies:
       svelte: '>=3 <5'
     dependencies:
@@ -2331,10 +2334,10 @@ packages:
       magic-string: 0.30.5
       periscopic: 3.1.0
 
-  /sveltekit-superforms@1.11.0(@sveltejs/kit@1.27.2)(svelte@4.2.2)(zod@3.22.4):
-    resolution: {integrity: sha512-43hhy34Eb57erD2b+3Z6A97NBQHQ+ePXmGxeOqOATd7OeI1Vo/fw+vd5yGE9w/ql8DGDUqW1LKb4D3rJXdxSYg==}
+  /sveltekit-superforms@1.13.1(@sveltejs/kit@1.27.2)(svelte@4.2.2)(zod@3.22.4):
+    resolution: {integrity: sha512-aWHAV6t6+7g37IGFNLRtbRIoqfC3a56Hf4/tTUNFZfwO2mOQGfeMb49WWBLdZZTrFRPGngfNRUxQzeoO3GspnQ==}
     peerDependencies:
-      '@sveltejs/kit': 1.x
+      '@sveltejs/kit': 1.x || 2.x
       svelte: 3.x || 4.x
       zod: 3.x
     dependencies:

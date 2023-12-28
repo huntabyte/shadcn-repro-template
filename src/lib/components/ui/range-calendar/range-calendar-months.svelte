@@ -2,18 +2,18 @@
 	import { cn } from "$lib/utils";
 	import type { HTMLAttributes } from "svelte/elements";
 
-	type $$Props = HTMLAttributes<HTMLTableSectionElement>;
+	type $$Props = HTMLAttributes<HTMLDivElement>;
 
 	let className: $$Props["class"] = undefined;
 	export { className as class };
 </script>
 
-<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-<thead
-	class={cn("[&_tr]:border-b", className)}
+<div
+	class={cn(
+		"flex flex-col sm:flex-row space-y-4 sm:space-x-4 sm:space-y-0 mt-4",
+		className
+	)}
 	{...$$restProps}
-	on:click
-	on:keydown
 >
 	<slot />
-</thead>
+</div>
