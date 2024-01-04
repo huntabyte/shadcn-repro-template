@@ -9,8 +9,8 @@ dependencies:
     specifier: ^3.5.1
     version: 3.5.1
   bits-ui:
-    specifier: ^0.11.8
-    version: 0.11.8(svelte@4.2.2)
+    specifier: ^0.13.0
+    version: 0.13.0(svelte@4.2.2)
   clsx:
     specifier: ^2.0.0
     version: 2.0.0
@@ -23,6 +23,9 @@ dependencies:
   lucide-svelte:
     specifier: ^0.303.0
     version: 0.303.0(svelte@4.2.2)
+  svelte-sonner:
+    specifier: ^0.3.9
+    version: 0.3.9(svelte@4.2.2)
   sveltekit-superforms:
     specifier: ^1.13.1
     version: 1.13.1(@sveltejs/kit@1.27.2)(svelte@4.2.2)(zod@3.22.4)
@@ -35,6 +38,9 @@ dependencies:
   tailwindcss-animate:
     specifier: ^1.0.7
     version: 1.0.7(tailwindcss@3.3.5)
+  vaul-svelte:
+    specifier: ^0.0.4
+    version: 0.0.4(svelte@4.2.2)
   zod:
     specifier: ^3.22.4
     version: 3.22.4
@@ -431,8 +437,8 @@ packages:
       svelte: 4.2.2
     dev: false
 
-  /@melt-ui/svelte@0.65.2(svelte@4.2.2):
-    resolution: {integrity: sha512-BpsSl9Bjp1++8U3+LaDOFUoX/PFQ9N7QWFhlFdUEZduhrbVyU70v9A459SKrQ+esFSjvh1AvqJYkMAUJXJlAmQ==}
+  /@melt-ui/svelte@0.67.0(svelte@4.2.2):
+    resolution: {integrity: sha512-fd9PsDE6sKbeyExagqH0nOpZEnDqyr2efbkjfmCRRYXVW5vlDEOPaSB+mg4Tjch121102sFH1Od+MlXwmeHy3A==}
     peerDependencies:
       svelte: '>=3 <5'
     dependencies:
@@ -863,13 +869,13 @@ packages:
     resolution: {integrity: sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==}
     engines: {node: '>=8'}
 
-  /bits-ui@0.11.8(svelte@4.2.2):
-    resolution: {integrity: sha512-T3YaT88OJguBoUU/MSncf41fiIc+5/ka8Au2LUDo0nSECex+LFY40+hKWLJc5tRT56avkyHsI7x9daA2r9eS/g==}
+  /bits-ui@0.13.0(svelte@4.2.2):
+    resolution: {integrity: sha512-XMvGKhJQMvSWqaan0eaIx1uAVcFBpImgO6xf+XTb7UhqdzbH0//6be4DeR1nRUpIU70XoU1B7i3lMPrTWg37ng==}
     peerDependencies:
       svelte: ^4.0.0
     dependencies:
       '@internationalized/date': 3.5.1
-      '@melt-ui/svelte': 0.65.2(svelte@4.2.2)
+      '@melt-ui/svelte': 0.67.0(svelte@4.2.2)
       nanoid: 5.0.4
       svelte: 4.2.2
     dev: false
@@ -2316,6 +2322,14 @@ packages:
       typescript: 5.2.2
     dev: true
 
+  /svelte-sonner@0.3.9(svelte@4.2.2):
+    resolution: {integrity: sha512-uwTidxYTZ5Sp8UjGu7N150gLG8EV2SS81rXd8deXpFDMTCKHGxE22UHV0WJxw64SdJHNfXRKorkR5wWZDkh/nA==}
+    peerDependencies:
+      svelte: '>=3 <5'
+    dependencies:
+      svelte: 4.2.2
+    dev: false
+
   /svelte@4.2.2:
     resolution: {integrity: sha512-My2tytF2e2NnHSpn2M7/3VdXT4JdTglYVUuSuK/mXL2XtulPYbeBfl8Dm1QiaKRn0zoULRnL+EtfZHHP0k4H3A==}
     engines: {node: '>=16'}
@@ -2525,6 +2539,15 @@ packages:
 
   /util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
+
+  /vaul-svelte@0.0.4(svelte@4.2.2):
+    resolution: {integrity: sha512-JqmjJWUM1ubJecVyUbCoKQ+K8YV1rJlSILb5kg3hARDvFggPEM0HzHWgYS2xXYuf9VTIgvwRnqFHNGAzPc1sfA==}
+    peerDependencies:
+      svelte: ^4.0.0
+    dependencies:
+      bits-ui: 0.13.0(svelte@4.2.2)
+      svelte: 4.2.2
+    dev: false
 
   /vite-node@0.32.4(@types/node@20.5.6):
     resolution: {integrity: sha512-L2gIw+dCxO0LK14QnUMoqSYpa9XRGnTTTDjW2h19Mr+GR0EFj4vx52W41gFXfMLqpA00eK4ZjOVYo1Xk//LFEw==}
