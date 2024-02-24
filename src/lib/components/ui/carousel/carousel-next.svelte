@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Button, type Props, buttonVariants } from "$lib/components/ui/button/index.js";
 	import { cn } from "$lib/utils";
-	import { ArrowRight } from "lucide-svelte";
+	import ArrowRight from "lucide-svelte/icons/arrow-right";
 	import type { VariantProps } from "tailwind-variants";
 	import { getEmblaContext } from "./context.js";
 
@@ -19,7 +19,7 @@
 	{variant}
 	{size}
 	class={cn(
-		"absolute h-8 w-8 rounded-full touch-manipulation",
+		"absolute h-8 w-8 touch-manipulation rounded-full",
 		$orientation === "horizontal"
 			? "-right-12 top-1/2 -translate-y-1/2"
 			: "-bottom-12 left-1/2 -translate-x-1/2 rotate-90",
