@@ -3,11 +3,12 @@
   "style": "default",
   "tailwind": {
     "config": "tailwind.config.js",
-    "css": "src/app.postcss",
+    "css": "src/app.pcss",
     "baseColor": "zinc"
   },
   "aliases": {
     "components": "$lib/components",
     "utils": "$lib/utils"
-  }
+  },
+  "typescript": true
 }
